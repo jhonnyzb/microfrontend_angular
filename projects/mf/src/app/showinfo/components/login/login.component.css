@@ -29,3 +29,15 @@
 .line-height-text{
     line-height: 14px;
 }
+
+.bg-danger{
+    background-color: #d11f33 !important;
+    font-size: 18px;
+    font-weight:600px;
+}
+
+.bg-success{
+    background-color: #069169 !important;
+    font-size: 18px;
+    font-weight:600px;
+}

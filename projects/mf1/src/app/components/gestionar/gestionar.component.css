@@ -1,0 +1,15 @@
+.color-font {
+    color: #004884;
+}
+
+.main-form-gestionar{
+    border-radius: 20px;
+    height: 300px;
+}
+.nav-gestionar{
+    position: absolute;
+    top:46px;
+    width: 100%;
+    height: 43px;
+    background-color: #e6effe;
+}

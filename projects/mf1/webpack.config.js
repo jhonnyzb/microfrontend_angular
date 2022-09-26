@@ -10,7 +10,7 @@ sharedMappings.register(
 
 module.exports = {
   output: {
-    uniqueName: "host",
+    uniqueName: "mf1",
     publicPath: "auto"
   },
   optimization: {
@@ -26,11 +26,12 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-        library: { type: "module" },        
-        
-        remotes: {
-            "mf": "http://localhost:4242/remoteEntry.js",
-            "mf1": "http://localhost:4343/remoteEntry.js",
+        library: { type: "module" },
+
+        name: "mf1",
+        filename: "remoteEntry.js",
+        exposes: {
+            './FormModule': './projects/mf1/src/app/form1/form1.module.ts',
         },
 
         shared: share({
@@ -44,7 +45,6 @@ module.exports = {
             requiredVersion: 'auto',
             includeSecondaries: true,
           },
-
           ...sharedMappings.getDescriptors()
         })
         

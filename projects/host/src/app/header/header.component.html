@@ -11,7 +11,16 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="row w-100">
           <div class="col-lg-4">
-            <a  routerLink="/mf" routerLinkActive="active" class="btn btn-primary border border-white btn-block btn-nav font2 pt-2 pb-2">INICIAR SESSION</a>
+            <a  routerLink="/mf" routerLinkActive="active" class="btn btn-primary border border-white btn-block btn-nav font2 pt-2 pb-2">
+              <span *ngIf="currentRoute != '/mf1'; else templateName">
+                INICIAR SESSION
+              </span>
+              <ng-template #templateName>
+                  admin@mail
+              </ng-template>
+              <!-- <span *ngIf="currentRoute != '/mf1'">INICIAR SESSION</span> 
+              <span *ngIf="currentRoute != '/mf1'">INICIAR SESSION</span> -->
+            </a>
           </div>
           <div class="col-lg-4">
             <button class="btn btn-primary border border-white  btn-block btn-nav font2 pt-2 pb-2">CARPETA CIUDADANA</button>

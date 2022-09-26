@@ -5,6 +5,7 @@ import { ShowinfoRoutingModule } from './showinfo-routing.module';
 import { ShowinfoComponent } from './components/showinfo/showinfo.component';
 import { InfoComponent } from './components/info/info.component';
 import { LoginComponent } from './components/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { LoginComponent } from './components/login/login.component';
   ],
   imports: [
     CommonModule,
-    ShowinfoRoutingModule
+    ShowinfoRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class ShowinfoModule { }

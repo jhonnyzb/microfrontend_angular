@@ -8,6 +8,9 @@ const routes: Routes = [
   },
   {
     path: 'mf', loadChildren: () => import('mf/ShowInfoModule').then((m) => m.ShowinfoModule)
+  },
+  {
+    path: 'mf1', loadChildren: () => import('mf1/FormModule').then((m) => m.Form1Module)
   }
 ];
 
