@@ -1,0 +1,31 @@
+.form-login {
+    border-radius: 20px;
+}
+
+.login-footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #e6effd;
+}
+
+.color-font {
+    color: #004884;
+}
+
+.btn-primary {
+    background-color: #3366CC !important;
+}
+
+.btn-radius {
+    border-radius: 20px;
+}
+
+.sombra-form {
+    -webkit-box-shadow: 1px 3px 14px -4px rgba(0,0,0,0.39);
+    -moz-box-shadow: 1px 3px 14px -4px rgba(0,0,0,0.39);
+    box-shadow: 1px 3px 14px -4px rgba(0,0,0,0.39);
+}
+
+.line-height-text{
+    line-height: 14px;
+}

@@ -1,0 +1,53 @@
+<div class="pl-5 pr-5" style="height:500px;">
+    <div class="form-login h-100 d-flex flex-column align-items-center justify-content-between sombra-form">
+        <div class="w-100 h-100 d-flex flex-column align-items-center pt-3 pl-5 pr-5">
+            <img src="http://localhost:4242/assets/key.svg" alt="image" width="auto" height="70" />
+            <h4 class="font1 font-weight-bold color-font">Inicio de Sesión</h4>
+            <div class="form-group w-100 mt-3">
+                <label class="font2 color-font">Correo Electronico</label>
+                <input type="email color-font" class="form-control">
+            </div>
+            <div class="form-group w-100 mb-1">
+                <label class="font2 color-font">Contraseña</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="w-100">
+                <input type="checkbox" class="mr-3">
+                <span class="font2 color-font">Mostrar Contraseña</span>
+            </div>
+            <div class="w-100 d-flex justify-content-between mt-4">
+                <a href="" class="btn btn btn-outline-primary btn-radius w-50 mr-2 font2">CANCELAR</a>
+                <a href="" class="btn btn-primary btn-radius w-50 ml-2 font2">INGRESAR</a>
+            </div>
+        </div>
+        <div class="w-100 login-footer d-flex justify-content-between pl-3 pr-3 pt-4 pb-4">
+            <a href="#" class="font2 text-dark" style="text-decoration:underline;" data-toggle="modal"
+                data-target="#exampleModal">Olvide mi Contraseña</a>
+            <a href="#" class="font2 text-dark" style="text-decoration:underline;">Registrarme</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title font1 font-weight-bold color-font">Restablezca su contraseña</h5>
+                <button type="button" class="close color-font" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="font2 color-font line-height-text">Le enviaremos un Correo electronico con instrucciones sobre restablecer su contraseña</p>
+                <div class="form-group">
+                    <input type="email" class="form-control">
+                  </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary btn-radius w-50 font2" data-dismiss="modal">CANCELAR</button>
+                <button type="button" class="btn btn-primary btn-radius w-50 font2">ENVIAR</button>
+            </div>
+        </div>
+    </div>
+</div>

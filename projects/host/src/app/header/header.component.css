@@ -1,0 +1,38 @@
+.btn-nav{
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+.btn-nav:hover{
+  background-color: #004884 !important;
+  border-color: #004884 !important;
+}
+
+
+.bg-primary{
+  background-color: #3366CC !important;
+}
+
+.btn-primary{
+  background-color: #3366CC !important;
+}
+
+
+.div-search{
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.inp-search{
+  outline: none;
+  border: 0;
+  color: white;
+}
+
+.inp-search::placeholder{
+  color: white;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+}

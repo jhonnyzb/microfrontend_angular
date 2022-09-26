@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+  }
+  
+.font1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font2{
+  font-family: 'Work Sans', sans-serif;
+}
